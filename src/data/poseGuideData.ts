@@ -1,0 +1,88 @@
+import { PoseGuideCard } from '../types';
+
+export const POSE_GUIDE_CARDS: PoseGuideCard[] = [
+  {
+    id: 'walking-hand-in-hand',
+    title: 'El Paseo Natural Mirando Atrás',
+    category: 'walking',
+    prompt: 'Couples pre-wedding photo, walking away from camera holding hands, she turns back laughing gently towards camera, hair flowing in wind, movement and natural joy, golden hour background',
+    cueForCouple: '«Caminen despacio hacia el fondo como si estuvieran solos. Al contar 3, ella gira el rostro hacia la cámara como recordando algo divertido.»',
+    cameraSettings: {
+      lens: '85mm f/1.4',
+      aperture: 'f/2.0',
+      shutter: '1/640s (para congelar el cabello)',
+      iso: 'ISO 100',
+      lighting: 'Contraluz natural con reflector blanco suave a 45°',
+    },
+  },
+  {
+    id: 'embrace-from-behind',
+    title: 'Abrazo Íntimo por la Espalda',
+    category: 'intimate',
+    prompt: 'Romantic pre-wedding couple, he gently embraces her from behind, hands clasped around her waist showing ring, heads resting close together, serene genuine smiles, dreamy soft bokeh',
+    cueForCouple: '«Abrázala suavemente por detrás. Apoya tu mentón en su hombro y susúrrale qué fue lo primero que pensaste cuando la conociste.»',
+    cameraSettings: {
+      lens: '50mm f/1.2 o 85mm f/1.8',
+      aperture: 'f/1.8',
+      shutter: '1/400s',
+      iso: 'ISO 100',
+      lighting: 'Luz lateral difusa de ventana o sombra abierta',
+    },
+  },
+  {
+    id: 'forehead-kiss-sunset',
+    title: 'Beso en la Frente al Atardecer',
+    category: 'romance',
+    prompt: 'Emotional fine art wedding couple portrait, he softly kisses her forehead, her eyes gently closed with serene expression, warm golden sunset halo backlighting, deep emotional connection',
+    cueForCouple: '«Cierren los ojos los dos. Respiren profundo. Dale un beso cálido y pausado en la frente mientras la sostienes con ambas manos.»',
+    cameraSettings: {
+      lens: '85mm f/1.4',
+      aperture: 'f/1.6',
+      shutter: '1/500s',
+      iso: 'ISO 100',
+      lighting: 'Sol directo a la espalda para crear halo en el cabello (Rim Light)',
+    },
+  },
+  {
+    id: 'veil-in-wind',
+    title: 'El Velo Ondeante Editorial',
+    category: 'editorial',
+    prompt: 'High fashion bridal editorial, long translucent cathedral lace veil caught in gentle breeze sweeping across frame, bride looking towards camera with poise, luxury dramatic lighting',
+    cueForCouple: '«El asistente lanza el velo hacia arriba y corre fuera de cuadro. Mantén la mirada fija en el lente con postura relajada pero elegante.»',
+    cameraSettings: {
+      lens: '35mm o 50mm f/1.4',
+      aperture: 'f/2.8 (para mantener foco en velo y novia)',
+      shutter: '1/1000s (alta velocidad obligatoria)',
+      iso: 'ISO 200',
+      lighting: 'Flash de estudio portátil HSS (High Speed Sync) con softbox',
+    },
+  },
+  {
+    id: 'whisper-laugh',
+    title: 'Risas Espontáneas & Cómplices',
+    category: 'romance',
+    prompt: 'Candid spontaneous pre-wedding couple laughing genuinely together, natural movement, unposed candid joy, close physical intimacy, beautiful cinematic color palette',
+    cueForCouple: '«Dile al oído en voz baja tu peor chiste o tu palabra favorita con voz de locutor de radio.» (Garantiza risas genuinas y no forzadas).',
+    cameraSettings: {
+      lens: '70-200mm f/2.8 a 135mm',
+      aperture: 'f/2.8',
+      shutter: '1/800s',
+      iso: 'ISO 160',
+      lighting: 'Luz ambiental dorada sin modificadores intrusivos',
+    },
+  },
+  {
+    id: 'ring-and-hands-detail',
+    title: 'Detalle de Manos & Anillo de Compromiso',
+    category: 'detail',
+    prompt: 'Macro fine art detail shot, couple holding hands tenderly, focus on elegant diamond engagement ring and textured suit and gown fabric, shallow depth of field',
+    cueForCouple: '«Entrelacen los dedos de forma relajada sobre la solapa de él o sobre el ramo de flores, sin apretar con fuerza.»',
+    cameraSettings: {
+      lens: '100mm f/2.8 Macro o 85mm f/1.4',
+      aperture: 'f/2.8',
+      shutter: '1/250s',
+      iso: 'ISO 100',
+      lighting: 'Luz lateral rasante para resaltar las facetas del diamante y la tela',
+    },
+  },
+];

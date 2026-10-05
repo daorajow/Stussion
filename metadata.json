@@ -1,0 +1,6 @@
+{
+  "name": "Studio Session AI Pro",
+  "description": "Professional editorial fashion photography studio using AI reference images, creative art direction, and high-fidelity poses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
